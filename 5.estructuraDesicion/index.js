@@ -35,3 +35,12 @@ entonces
 //  Escribir: 
 "Gracias por usar este programa"
 Fin
+
+
+
+var edad=17
+if(edad>=18){
+    console.log("eres mayor de edad")
+}
+else{ console.log("es menor de edad") 
+}
