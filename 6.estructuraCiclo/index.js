@@ -1,11 +1,8 @@
-// estructuraciclo concepto:
-// for
-// write
-// duai
+// EJEMPLO DE FOR:
 
-// concepto
-// aplicacion
-// ejecicios-
+#include <stdio.h>
+for(let i=2;i<=10;i+=2){
+    console.log(i)
+}
 
-
-
+// EJEMPLO DE DO-WHILE:
