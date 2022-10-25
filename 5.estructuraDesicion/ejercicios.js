@@ -37,3 +37,62 @@ if(divisor == 0){
 }else{
     console.log(dividendo/divisor)
 }
+
+
+numeroMes=7
+switch(numeroMes){
+    case 1:
+     console.log('enero')
+     break
+    case 2:
+     console.log('febrero')
+     break
+    case 3:
+     console.log('marzo')
+     break
+    default:
+     console.log('error mes no encontrado')
+}
+
+
+
+numeroMes='2'
+switch(numeroMes){
+    case 'a':
+     console.log('es una vocal')
+     break
+    default:
+ console.log('no es una vocal')
+}
+
+// la estructura de desicion 
+// seguira un camino distinto
+// segun la condicion
+
+
+vocal='vocal'
+switch(vocal){
+    case 'a': case 'e': case 'i': case 'o': case 'u':
+     console.log('la letra ${vocal}, es una vocal')
+     break
+    default:
+     console.log('no es una vocal')
+}
+
+
+
+
+vocal='vocal'
+switch(vocal){
+    case 'a': case 'e': case 'i': case 'o': case 'u':
+     console.log('la letra ${vocal}, es una vocal')
+     console.log('la letra ,',vocal,', es una vocal')
+     console.log("la letra vocal, es una vocal")
+     console.log('la letra ${vocal}, es una vocal')
+     break
+    default:
+     console.log('no es una vocal')
+
+
+
+    
