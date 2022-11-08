@@ -35,6 +35,8 @@ console.log(saludo('edgar', 'alegria'))
 
 
 
+// EJERCICIOS PROFE:
+
 
 // crear un funcion de 
 // function contarVocales(texto)return(cantidadVocales)
@@ -55,9 +57,32 @@ console.log(contarVocales('maycol edgar es un trome.'))
 
 
 
+
+
+
 // contarVocales('eucalipto') //5
 
 // function calculadora(num1,num2,operacion)(return total)
+
+
+
+function calcular (num1,num2,operacion){
+    if(operacion=="suma"){
+     total=num1+num2
+    }
+    if(operacion=="resta"){
+        total=num1-num2
+    }
+    if(operacion=="multiplicacion"){
+        total=num1*num2
+    }
+    if(operacion=="division"){
+            total=num1/num2
+    }
+    return total
+}
+console.log(calcular(50,5,"division"))
+
 
 
 
