@@ -14,4 +14,4 @@ if(...) {
 }
 if(...) {
   console.log("Incrementar en 1 unidad el valor de numero1 no lo hace mayor o igual que numero2");
-}
+}       
