@@ -1,6 +1,5 @@
 
-const espa = document.createElement("div")
-espa.classList.add = "s"
+
 function boton1(){
     img1 = "<img src='imagenes/colombia.JPG' alt=''/> "
     document.getElementById("espacio").innerHTML = img1;
